@@ -13,7 +13,7 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping
+@RequestMapping("/consultas")
 @SecurityRequirement(name = "bearer-key")
 public class ConsultaController {
 
